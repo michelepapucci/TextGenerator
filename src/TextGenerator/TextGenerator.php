@@ -9,6 +9,7 @@ use Neveldo\TextGenerator\TextFunction\FilterFunction;
 use Neveldo\TextGenerator\TextFunction\FunctionInterface;
 use Neveldo\TextGenerator\TextFunction\IfFunction;
 use Neveldo\TextGenerator\TextFunction\LoopFunction;
+use Neveldo\TextGenerator\TextFunction\PrintIfPresentFunction;
 use Neveldo\TextGenerator\TextFunction\ProbabilityRandomFunction;
 use Neveldo\TextGenerator\TextFunction\RandomFunction;
 use Neveldo\TextGenerator\TextFunction\RmnaFunction;
@@ -74,6 +75,7 @@ class TextGenerator
             ->registerFunction('filter', new FilterFunction($this->tagReplacer))
             ->registerFunction('coalesce', new CoalesceFunction($this->tagReplacer))
             ->registerFunction('rmna', new RmnaFunction($this->tagReplacer))
+            ->registerFunction('pip', new PrintIfPresentFunction($this->tagReplacer))
         ;
     }
 

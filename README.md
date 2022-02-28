@@ -1,6 +1,6 @@
 # TextGenerator
 
-TextGenerator is a PHP package that aims to generate automated texts  from data. Feel free to comment and contribute.
+TextGenerator is a PHP package that aims to generate automated texts  from data. This is a fork from the original [neveldo/TextGenerator](https://github.com/neveldo/TextGenerator) that adds a few functionalities.
 
 ## Features
 
@@ -229,6 +229,28 @@ Template example :
 Output :
 
     test 2 : ok
+
+### 'pip'
+
+Print if Present return the argument only if all the tags inside of it have a matching value in the provided data. 
+
+Data :
+
+    [
+        [
+            'tag2' => 'ok', 
+        ]
+    ]
+
+Template example :
+
+    #rmna{test 1 : @tag1};;
+    #rmna{test 2 : @tag2}
+
+Output :
+
+    test 2 : ok
+
     
 ## Complete example :
 
@@ -326,5 +348,8 @@ Output :
 You can extend the TextGenerator capabilities by adding your own text funtions. In order to create a new function for the TextGenerator, you just have to implement the FunctionInterface and call registerFunction() method on the TextGenerator instance. Then, you will be able to call it from your templates.
 
 ## Install
+To install this fork:
 
-    $ composer require neveldo/text-generator
+    $ composer require michelepapucci/text-generator
+
+To install the original check out [neveldo/TextGenerator](https://github.com/neveldo/TextGenerator)

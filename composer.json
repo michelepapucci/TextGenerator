@@ -1,6 +1,6 @@
 {
-    "name": "neveldo/text-generator",
-    "description" : "TextGenerator is a tool that aims to automate the generation of text from data by using a template.",
+    "name": "michelepapucci/text-generator",
+    "description" : "This is a fork of neveldo/TextGenerator. TextGenerator is a tool that aims to automate the generation of text from data by using a template.",
     "type": "library",
     "license": "MIT",
     "require": {
@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4" : {
-            "Neveldo\\TextGenerator\\": "src/TextGenerator/"
+            "MichelePapucci\\TextGenerator\\": "src/TextGenerator/"
         }
     },
     "minimum-stability" : "stable"
