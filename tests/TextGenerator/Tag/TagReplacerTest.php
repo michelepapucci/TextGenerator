@@ -1,6 +1,6 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
 class TagReplacerTest extends \PHPUnit\Framework\TestCase
 {

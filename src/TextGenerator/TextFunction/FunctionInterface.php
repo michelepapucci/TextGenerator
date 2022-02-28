@@ -1,6 +1,6 @@
 <?php
 
-namespace Neveldo\TextGenerator\TextFunction;
+namespace MichelePapucci\TextGenerator\TextFunction;
 
 /**
  * Interface FunctionInterface

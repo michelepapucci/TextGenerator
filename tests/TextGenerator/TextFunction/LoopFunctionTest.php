@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\LoopFunction;
+use MichelePapucci\TextGenerator\TextFunction\LoopFunction;
 
 class LoopFunctionTest extends \PHPUnit\Framework\TestCase
 {

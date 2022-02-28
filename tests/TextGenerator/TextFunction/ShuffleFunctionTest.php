@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\ShuffleFunction;
+use MichelePapucci\TextGenerator\TextFunction\ShuffleFunction;
 
 class ShuffleFunctionTest extends \PHPUnit\Framework\TestCase
 {

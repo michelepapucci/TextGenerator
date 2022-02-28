@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\FilterFunction;
+use MichelePapucci\TextGenerator\TextFunction\FilterFunction;
 
 class FilterFunctionTest extends \PHPUnit\Framework\TestCase
 {

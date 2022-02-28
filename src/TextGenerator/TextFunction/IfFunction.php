@@ -1,10 +1,10 @@
 <?php
 
-namespace Neveldo\TextGenerator\TextFunction;
+namespace MichelePapucci\TextGenerator\TextFunction;
 
-use Neveldo\TextGenerator\Tag\TagReplacer;
-use Neveldo\TextGenerator\Tag\TagReplacerInterface;
-use Neveldo\TextGenerator\ExpressionLanguage\ExpressionLanguage;
+use MichelePapucci\TextGenerator\Tag\TagReplacer;
+use MichelePapucci\TextGenerator\Tag\TagReplacerInterface;
+use MichelePapucci\TextGenerator\ExpressionLanguage\ExpressionLanguage;
 
 /**
  * Class IfFunction

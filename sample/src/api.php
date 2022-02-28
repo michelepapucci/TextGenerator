@@ -30,7 +30,7 @@ if (!file_exists(__DIR__ . '/../../vendor/autoload.php')) {
 
 require __DIR__ . '/../../vendor/autoload.php';
 
-use Neveldo\TextGenerator\TextGenerator;
+use MichelePapucci\TextGenerator\TextGenerator;
 
 $output = [
     'result' => [],

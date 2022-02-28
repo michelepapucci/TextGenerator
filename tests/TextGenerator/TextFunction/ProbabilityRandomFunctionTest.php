@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\ProbabilityRandomFunction;
+use MichelePapucci\TextGenerator\TextFunction\ProbabilityRandomFunction;
 
 class ProbabilityRandomFunctionTest extends \PHPUnit\Framework\TestCase
 {

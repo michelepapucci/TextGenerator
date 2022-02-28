@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\CoalesceFunction;
+use MichelePapucci\TextGenerator\TextFunction\CoalesceFunction;
 
 class CoalesceFunctionTest extends \PHPUnit\Framework\TestCase
 {

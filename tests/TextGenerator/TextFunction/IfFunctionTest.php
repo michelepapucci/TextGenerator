@@ -1,8 +1,8 @@
 <?php
 
-namespace Neveldo\TextGenerator\Tag;
+namespace MichelePapucci\TextGenerator\Tag;
 
-use Neveldo\TextGenerator\TextFunction\IfFunction;
+use MichelePapucci\TextGenerator\TextFunction\IfFunction;
 
 class IfFunctionTest extends \PHPUnit\Framework\TestCase
 {

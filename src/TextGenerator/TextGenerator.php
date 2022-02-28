@@ -1,22 +1,22 @@
 <?php
 
-namespace Neveldo\TextGenerator;
+namespace MichelePapucci\TextGenerator;
 
-use Neveldo\TextGenerator\TextFunction\ChooseFunction;
-use Neveldo\TextGenerator\TextFunction\CoalesceFunction;
-use Neveldo\TextGenerator\TextFunction\ExprFunction;
-use Neveldo\TextGenerator\TextFunction\FilterFunction;
-use Neveldo\TextGenerator\TextFunction\FunctionInterface;
-use Neveldo\TextGenerator\TextFunction\IfFunction;
-use Neveldo\TextGenerator\TextFunction\LoopFunction;
-use Neveldo\TextGenerator\TextFunction\PrintIfPresentFunction;
-use Neveldo\TextGenerator\TextFunction\ProbabilityRandomFunction;
-use Neveldo\TextGenerator\TextFunction\RandomFunction;
-use Neveldo\TextGenerator\TextFunction\RmnaFunction;
-use Neveldo\TextGenerator\TextFunction\SetFunction;
-use Neveldo\TextGenerator\TextFunction\ShuffleFunction;
-use Neveldo\TextGenerator\Tag\TagReplacer;
-use Neveldo\TextGenerator\Tag\TagReplacerInterface;
+use MichelePapucci\TextGenerator\TextFunction\ChooseFunction;
+use MichelePapucci\TextGenerator\TextFunction\CoalesceFunction;
+use MichelePapucci\TextGenerator\TextFunction\ExprFunction;
+use MichelePapucci\TextGenerator\TextFunction\FilterFunction;
+use MichelePapucci\TextGenerator\TextFunction\FunctionInterface;
+use MichelePapucci\TextGenerator\TextFunction\IfFunction;
+use MichelePapucci\TextGenerator\TextFunction\LoopFunction;
+use MichelePapucci\TextGenerator\TextFunction\PrintIfPresentFunction;
+use MichelePapucci\TextGenerator\TextFunction\ProbabilityRandomFunction;
+use MichelePapucci\TextGenerator\TextFunction\RandomFunction;
+use MichelePapucci\TextGenerator\TextFunction\RmnaFunction;
+use MichelePapucci\TextGenerator\TextFunction\SetFunction;
+use MichelePapucci\TextGenerator\TextFunction\ShuffleFunction;
+use MichelePapucci\TextGenerator\Tag\TagReplacer;
+use MichelePapucci\TextGenerator\Tag\TagReplacerInterface;
 
 /**
  * Class TextGenerator

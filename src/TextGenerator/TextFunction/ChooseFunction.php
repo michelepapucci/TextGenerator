@@ -1,9 +1,9 @@
 <?php
 
-namespace Neveldo\TextGenerator\TextFunction;
+namespace MichelePapucci\TextGenerator\TextFunction;
 
-use Neveldo\TextGenerator\Tag\TagReplacer;
-use Neveldo\TextGenerator\Tag\TagReplacerInterface;
+use MichelePapucci\TextGenerator\Tag\TagReplacer;
+use MichelePapucci\TextGenerator\Tag\TagReplacerInterface;
 
 /**
  * Class ChooseFunction

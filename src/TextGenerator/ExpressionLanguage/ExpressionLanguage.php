@@ -1,6 +1,6 @@
 <?php
 
-namespace Neveldo\TextGenerator\ExpressionLanguage;
+namespace MichelePapucci\TextGenerator\ExpressionLanguage;
 
 /**
  * Class TagReplacerInterface
