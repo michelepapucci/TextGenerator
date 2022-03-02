@@ -28,7 +28,7 @@ class PrintIfPresentFunction implements FunctionInterface
      */
     public function execute(array $arguments, array $originalArguments)
     {
-        if($arguments[0] == $originalArguments[0] && preg_match('/ *@\w+/', $arguments[0]))
+        if(preg_match('/ *@\w+/', $arguments[0]))
         {
             return '';
         } else {
